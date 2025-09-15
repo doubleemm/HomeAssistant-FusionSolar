@@ -164,7 +164,7 @@ class FusionSolarOpenApi:
 
         headers = {
             'accept': 'application/json',
-            'xsrf-token': self._token,
+            'XSRF-TOKEN': self._token,
         }
 
         try:
